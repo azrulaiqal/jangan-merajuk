@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Love</title>
+  <link rel="stylesheet" href="sayang.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="background-music" autoplay loop>
+    <source src="Dahsyat 1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1 class="title">For My Beautiful Girlfriend</h1>
+
+    <div class="image-container">
+      <div class="image-wrapper">
+        <img src="sayang 1.jpg" alt="Our Memory 1" class="image">
+        <p class="caption">hai sayang</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="sayang 2.jpg" alt="Our Memory 2" class="image">
+        <p class="caption">saya minta maaf dan i love you!!</p>
+      </div>
+    </div>
+
+    <div class="moving-caption">
+      <p>jangan cedih cedih dahhhh!!! 💖</p>
+    </div>
+
+    <button class="video-button" onclick="openVideo()">Click for a Surprise!</button>
+
+    <div id="video-popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closeVideo()">&times;</span>
+        <video controls>
+          <source src="sayang 3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-caption">This is for you, my love! ❤️</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="sayang.js"></script>
+</body>
+</html>
